@@ -2,9 +2,9 @@ import 'package:church_app/pages/pages.dart';
 
 class AppRoutes {
   static final pages = {
-    home: (context) => HomePage(),
-    main: (context) => MainPage(),
-    editProfile: (context) => EditProfile(),
+    home: (context) => const HomePage(),
+    main: (context) => const MainPage(),
+    editProfile: (context) => const EditProfile(),
     //nearby: (context) => NearbyPage(),
     //user: (context) => UserPage(),
   };

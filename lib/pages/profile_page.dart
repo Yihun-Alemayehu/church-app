@@ -18,7 +18,7 @@ class ProfilePage extends StatelessWidget {
                     Navigator.of(context).pushNamed(AppRoutes.editProfile);
                   },
                 ),
-                PopupMenuItem(child: Text('Log out')),
+                const PopupMenuItem(child: Text('Log out')),
               ];
             },
           )

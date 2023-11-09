@@ -76,8 +76,6 @@ class MyBottomNavigationState extends State<MyBottomNavigation> {
     return Container(
       padding: const EdgeInsets.only(left: 5, right: 5),
       height: 87,
-      //margin: EdgeInsets.all(-4),
-      //color: Colors.red,
       child: Stack(
         children: [
           Positioned(

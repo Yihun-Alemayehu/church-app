@@ -21,8 +21,8 @@ class _EditProfileState extends State<EditProfile> {
           PopupMenuButton(
             itemBuilder: ((context) {
               return [
-                PopupMenuItem(child: Text('Save')),
-                PopupMenuItem(child: Text('Discard')),
+                const PopupMenuItem(child: Text('Save')),
+                const PopupMenuItem(child: Text('Discard')),
               ];
             }),
           )
